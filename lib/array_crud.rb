@@ -33,7 +33,8 @@ end
 def retrieve_last_element_from_array(array)
   array[-1]
 end
-def update_element_from_index
+
+def update_element_from_index(array,index_number,element)
 arr1=array.index(index_number)
 array2 << element
 return array2
